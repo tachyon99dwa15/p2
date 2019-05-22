@@ -36,9 +36,6 @@ if ($round) {
 }
 
 
-
-
-
 $_SESSION['results'] = [
     'length' => $length,
     'width' => $width,

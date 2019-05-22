@@ -13,6 +13,7 @@ if (isset($_SESSION['results'])) {
     $width = $results['width'];
     $round = $results['round'];
     $area = $results['area'];
+    $perimeter = $results['perimeter'];
     $Type_of_Calculation = $results['$Type_of_Calculation'];
 
     # TIP: Because the key values for $results all match the variable names we set them do,
