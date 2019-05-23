@@ -12,22 +12,27 @@ class Rectangle
 
     public function __construct()
     {
-        echo 'Rectangle class was instantitead';
+        $this->$length = 0;
+        $this->$width = 0;
     }
 
-    public function getLength(){
+    public function getLength()
+    {
         return $this->length;
-        }
+    }
 
-    public function getWidth(){
+    public function getWidth()
+    {
         return $this->width;
     }
 
-    public function setLength($length){
+    public function setLength($length)
+    {
         $this->length = $length;
     }
 
-    public function setWidth($width){
+    public function setWidth($width)
+    {
         $this->width = $width;
     }
 }

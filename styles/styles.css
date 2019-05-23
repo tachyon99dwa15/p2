@@ -1,0 +1,58 @@
+body {
+    padding: 25px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.alert, .btn {
+    margin-top: 10px;
+}
+
+.alert {
+    max-width: 500px;
+}
+
+.alert ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.info {
+    font-size:9px;
+    color:grey;
+}
+
+label, legend {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+input, textarea, select {
+    display: block;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    display: inline;
+    margin-right: 0;
+    /* Next two lines prevent misalignment with text */
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+ul.checkboxes, ul.radios {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.checkboxes li label, ul.radios li label {
+    margin-top: 0;
+    cursor: pointer;
+}
+
+a.return:link {
+    display: block;
+    margin-top: 10px;
+}

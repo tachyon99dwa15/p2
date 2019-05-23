@@ -6,6 +6,10 @@
  */
 session_start();
 $hasErrors = false;
+$Type_of_Calculation = "";
+$area = 0;
+$perimeter = 0;
+
 # Get `results` data from session, if available
 if (isset($_SESSION['results'])) {
     $results = $_SESSION['results'];
@@ -14,7 +18,9 @@ if (isset($_SESSION['results'])) {
     $round = $results['round'];
     $area = $results['area'];
     $perimeter = $results['perimeter'];
-    $Type_of_Calculation = $results['$Type_of_Calculation'];
+    $Type_of_Calculation = $results['Type_of_Calculation'];
+    $errors = $results['errors'];
+    $hasErrors = $results['hasErrors'];
 
     # TIP: Because the key values for $results all match the variable names we set them do,
     # we could simplify the above 6 lines using PHP's extract function:
