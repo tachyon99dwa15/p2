@@ -21,5 +21,5 @@ No code style divergences
 
 ## Notes for instructor
 So excited I got this app working after being so behind. Fun to see it works! Laravel is much more powerful. But figuring out
-things in the base PHP is also edifying. I even actually cnded creating my own Rectangle class and using it as well. :)
+things in the base PHP is also edifying. I even actually ended creating my own Rectangle class and using it as well. :)
 
